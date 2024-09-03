@@ -22,7 +22,7 @@
 ">Da li ste dobro? Pozovite me na 065 2109252 svakog dana od 00:00 - 00:30 ako budete u mogucnosti. Ako ne ostavite email i komentar i cucemo se preko email-a. Ako ne mozete ni jedno od ova 2 cucemo se drugom prilikom.</div>
 
     
-    <form action="mailto:stojanoviccke94@gmail.com>
+    <form action="mailto:stojanoviccke94@gmail.com">
       <label>
         Name
         <input id="email" name="name" type="text" required />
