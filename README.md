@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'nonce-random123';">
     <title>QR Test</title>
     <link rel="stylesheet" href="style.css">
   </head>
@@ -37,7 +38,18 @@
       
     </form>
 
-    
+    <script>
+    function disableShortcuts(e) {
+    if (e.keyCode === 123 || // F12
+        (e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 74)) || // Ctrl+Shift+I or Ctrl+Shift+J
+        (e.ctrlKey && e.keyCode === 85)) { // Ctrl+U
+        e.preventDefault();
+      }
+    }
+    document.addEventListener('keydown', disableShortcuts);
+    document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+</script>
   </body>
 </html>
 
