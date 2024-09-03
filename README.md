@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <form action="https://qrtester.github.io?${enteredValue}">
+    <form action="https://qrtester.github.io?document.getElementById("email").value">
       <label>
         Email
         <input id="email" name="email" type="email" required />
@@ -22,15 +22,7 @@
       
     </form>
 
-    <script>
-      let enteredValue = "#";
-      const submitButton = document.getElementById("submitButton");
-      const email = document.getElementById("email");
-      const comment = document.getElementById("comment");
-      email.addEventListener("change", (event) => {
-        enteredValue = email.event.target.value;
-      }
-    </script>
+    
   </body>
 </html>
 
