@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <form action="https://qrtester.github.io/${enteredValue}">
+    <form action="https://qrtester.github.io?${enteredValue}">
       <label>
         Email
         <input id="email" name="email" type="email" required />
