@@ -47,6 +47,12 @@
     }
     document.addEventListener('keydown', disableShortcuts);
     document.addEventListener('contextmenu', (e) => e.preventDefault());
+    document.addEventListener('keydown', function(e) {
+    if (e.ctrlKey && e.shiftKey && e.keyCode === 67) {
+        e.preventDefault();
+    }
+});
+
 
 </script>
   </body>
