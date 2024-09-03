@@ -1,4 +1,15 @@
-<a href=#>Test</a>
 
+<form action="#">
+  <label>
+    Email
+    <input type="email" required />
+  </label>
 
-<input type="text" />
+  <label>
+    Comment
+    <texarea type="text" required ></texarea>
+  </label>
+
+  <input type="submit" />
+  
+</form>
