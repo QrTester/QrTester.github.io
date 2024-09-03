@@ -7,7 +7,7 @@
 
   <label>
     Comment
-    <texarea type="text" required ></texarea>
+    <textarea type="text" required ></textarea>
   </label>
 
   <input type="submit" />
