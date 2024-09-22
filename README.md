@@ -7,54 +7,10 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div style="
-  border: 0 !important;
-  clip: rect(1px, 1px, 1px, 1px) !important;
-  -webkit-clip-path: inset(50%) !important;
-  clip-path: inset(50%) !important;
-  height: 1px !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  padding: 0 !important;
-  position: absolute !important;
-  width: 1px !important;
-  white-space: nowrap !important;
-">Da li ste dobro? Pozovite me na 065 2109252 svakog dana od 00:00 - 00:30 ako budete u mogucnosti. Ako ne ostavite email i komentar i cucemo se preko email-a. Ako ne mozete ni jedno od ova 2 cucemo se drugom prilikom.</div>
 
-    
-    <form action="mailto:stojanoviccke94@gmail.com">
-      <label>
-        Name
-        <input id="email" name="name" type="text" required />
-      </label>
-    
-      <label>
-        Comment
-        <textarea id="comment" name="comment" required ></textarea>
-      </label>
-    
-      <input id="submitButton" onsubmit="makeGet()" type="submit" />
-      
-    </form>
-
-    <script>
-    function disableShortcuts(e) {
-    if (e.keyCode === 123 || // F12
-        (e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 74)) || // Ctrl+Shift+I or Ctrl+Shift+J
-        (e.ctrlKey && e.keyCode === 85)) { // Ctrl+U
-        e.preventDefault();
-      }
-    }
-    document.addEventListener('keydown', disableShortcuts);
-    document.addEventListener('contextmenu', (e) => e.preventDefault());
-    document.addEventListener('keydown', function(e) {
-    if (e.ctrlKey && e.shiftKey && e.keyCode === 67) {
-        e.preventDefault();
-    }
-});
+<iframe class="airtable-embed" src="https://airtable.com/embed/appiLqK3LxV6u6LGl/shrkoGjocfCmh45bj?viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 
-</script>
   </body>
 </html>
 
